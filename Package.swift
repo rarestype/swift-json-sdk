@@ -14,20 +14,20 @@ let package: Package = .init(
 var JSON: Target {
     var url: String {
         #if os(macOS)
-        "https://get.rarestype.com/swift-json/3.4.1/macOS-arm64/JSON.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.4.2/macOS-arm64/JSON.xcframework.zip"
         #elseif arch(x86_64)
-        "https://get.rarestype.com/swift-json/3.4.1/Linux-x86_64/JSON.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.4.2/Linux-x86_64/JSON.xcframework.zip"
         #else
-        "https://get.rarestype.com/swift-json/3.4.1/Linux-aarch64/JSON.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.4.2/Linux-aarch64/JSON.xcframework.zip"
         #endif
     }
     var checksum: String {
         #if os(macOS)
-        "b3d906482940f22ec8c6c158b818d3e0b990f6f4cdb3dd88b3611370ece807ef"
+        "4f336f4c91f2495c7b2f1044748024277c945f56b6c05cc486ae9f337fb3dfc2"
         #elseif arch(x86_64)
-        "2d05e44435d89504e7ea8662af9bfdb84bd59b93eb02bca440c4ac8ee7787c8a"
+        "350535a7707b376b374e3615529ec8f144cf334cc4c33f5bcb88c597f0b3a1ca"
         #else
-        "6101342651769342de21be5d83624eaf515d833080796794f63fb08a7aa7869d"
+        "e3dc40ccd687965bbfe3b3b1a06cf53800ad21320031ccbc41a0bc27b281c305"
         #endif
     }
 
