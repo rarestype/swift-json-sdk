@@ -1,17 +1,4 @@
-// swift-tools-version: 6.2
-import PackageDescription
-
-let package: Package = .init(
-    name: "swift-json-sdk",
-    products: [
-        .library(name: "JSON", targets: ["JSON"]),
-    ],
-    targets: [
-        JSON,
-    ]
-)
-
-var JSON: Target {
+var __MODULE__: Target {
     var url: String {
         #if os(macOS)
         "__BUNDLE_URL_MACOS__"
@@ -31,5 +18,5 @@ var JSON: Target {
         #endif
     }
 
-    return .binaryTarget(name: "JSON", url: url, checksum: checksum)
+    return .binaryTarget(name: "__MODULE__", url: url, checksum: checksum)
 }
