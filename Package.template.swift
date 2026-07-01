@@ -7,11 +7,11 @@ let package: Package = .init(
         .library(name: "JSON", targets: ["JSON"]),
     ],
     targets: [
-        target("JSON"),
+        JSON,
     ]
 )
 
-func target(name: String) -> Target {
+var JSON: Target {
     var url: String {
         #if os(macOS)
         "__BUNDLE_URL_MACOS__"
@@ -31,5 +31,5 @@ func target(name: String) -> Target {
         #endif
     }
 
-    return .binaryTarget(name: name, url: url, checksum: checksum)
+    return .binaryTarget(name: "JSON", url: url, checksum: checksum)
 }
