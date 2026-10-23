@@ -26,20 +26,20 @@ let package: Package = .init(
 var JSONAST: Target {
     var url: String {
         #if os(macOS)
-        "https://get.rarestype.com/swift-json/3.5.1/macOS-arm64/JSONAST.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/macOS-arm64/JSONAST.xcframework.zip"
         #elseif arch(x86_64)
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-x86_64/JSONAST.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-x86_64/JSONAST.xcframework.zip"
         #else
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-aarch64/JSONAST.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-aarch64/JSONAST.xcframework.zip"
         #endif
     }
     var checksum: String {
         #if os(macOS)
-        "21f7ac666f4f858c2ecd6ecd6cb419140ea4103149c19bc9f5401771479d0555"
+        "819ff9b05810cb3fa7bf0ef74dedd4ab98c9ecdd94998a8ddaa6b809763fa908"
         #elseif arch(x86_64)
-        "19855b2b6835146a5136f29e2b41174dc4ed36f738008bf806dde1987dae0400"
+        "d1b1887b6053f9e934a5ea8b1b3c85b991fc64e667aa190d090bf43be7f76890"
         #else
-        "27b609a67c3c73cd081da6766bb51f374625ea176d594fe2b8112855a66c74a7"
+        "f520b29be952709f54e936b50a3f8b1a59d09a58c0e1f89dc8473a856cb175cc"
         #endif
     }
 
@@ -48,20 +48,20 @@ var JSONAST: Target {
 var JSONDecoding: Target {
     var url: String {
         #if os(macOS)
-        "https://get.rarestype.com/swift-json/3.5.1/macOS-arm64/JSONDecoding.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/macOS-arm64/JSONDecoding.xcframework.zip"
         #elseif arch(x86_64)
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-x86_64/JSONDecoding.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-x86_64/JSONDecoding.xcframework.zip"
         #else
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-aarch64/JSONDecoding.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-aarch64/JSONDecoding.xcframework.zip"
         #endif
     }
     var checksum: String {
         #if os(macOS)
-        "7c29c50ed91dd5779e456cda7a524975ea03fc47c48642309c5b2debe7f85354"
+        "472f9d87ef00e2f1dd43d63088855117e95fd9ac2ab98f46fbabcaadeecf65f4"
         #elseif arch(x86_64)
-        "0596360b1c2eb9e30f7aa3dd0b96772913a63915cef6970ef02535f490bfe282"
+        "14b0483a94ce651f873c3f20750153b56439465b29f9f647e2e10d119d12e92e"
         #else
-        "af3af14d23bfa2f47714300256910d0b954133dcda46ea509ab1d77ba2baf705"
+        "88b6b05b0fcf6345eb1331cf7c77efb6fb17e41c5cbb30fbacfe3ca8490cd250"
         #endif
     }
 
@@ -70,20 +70,20 @@ var JSONDecoding: Target {
 var JSONEncoding: Target {
     var url: String {
         #if os(macOS)
-        "https://get.rarestype.com/swift-json/3.5.1/macOS-arm64/JSONEncoding.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/macOS-arm64/JSONEncoding.xcframework.zip"
         #elseif arch(x86_64)
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-x86_64/JSONEncoding.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-x86_64/JSONEncoding.xcframework.zip"
         #else
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-aarch64/JSONEncoding.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-aarch64/JSONEncoding.xcframework.zip"
         #endif
     }
     var checksum: String {
         #if os(macOS)
-        "f77d4f44743e60a7ef381e19895cd25ab93067f66004567d8f6498aac34ebfed"
+        "4ae0fa596e70c819e4a682e268692cb01f150bb9a59b8a055a08e128a9a5b7a6"
         #elseif arch(x86_64)
-        "e692096baf5e4ba177e58b7d23fa25ba32fdc4b13b08ca8c1b3ff620c9a4662d"
+        "75fd5d7b7cad401fcabbbbfa85def98e2239e83c7bd37dedc60546397978ce64"
         #else
-        "c4b7a335db23d3bc9f1bf2388de427ec8efcfc7126ac51c25612e6d18923980f"
+        "e72137b4f5a3fc98907c01b2aaa83cf05acbe78153a31e55c542899fed149b4c"
         #endif
     }
 
@@ -92,20 +92,20 @@ var JSONEncoding: Target {
 var JSONParsing: Target {
     var url: String {
         #if os(macOS)
-        "https://get.rarestype.com/swift-json/3.5.1/macOS-arm64/JSONParsing.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/macOS-arm64/JSONParsing.xcframework.zip"
         #elseif arch(x86_64)
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-x86_64/JSONParsing.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-x86_64/JSONParsing.xcframework.zip"
         #else
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-aarch64/JSONParsing.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-aarch64/JSONParsing.xcframework.zip"
         #endif
     }
     var checksum: String {
         #if os(macOS)
-        "05daa259d98a8eaac693f7b46ad2911eab9c8cb0048439fe36d99f3e25ee4c18"
+        "ee24769063d4acc597eb854e9c3ffa0541f79b2f6c43e6e28fdf3b40124df6fe"
         #elseif arch(x86_64)
-        "30479327ebfe7aac3c2879bfd29c7df81bde052097fcbb2566ea67eba6283c35"
+        "00e121db68305bc55c83623e9cc1a6fa7195666cd6d8dc63e01717b5c41ec385"
         #else
-        "ea8c9d9956aec6bd175a0e371a116a582a1e7fe7af4dd3d6ce69d550d60c5d89"
+        "4a41d8b6203498e579b094bccb0c301a38fd5f2ba021a054a0e32c1a8aab9ef0"
         #endif
     }
 
@@ -114,20 +114,20 @@ var JSONParsing: Target {
 var JSON: Target {
     var url: String {
         #if os(macOS)
-        "https://get.rarestype.com/swift-json/3.5.1/macOS-arm64/JSON.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/macOS-arm64/JSON.xcframework.zip"
         #elseif arch(x86_64)
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-x86_64/JSON.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-x86_64/JSON.xcframework.zip"
         #else
-        "https://get.rarestype.com/swift-json/3.5.1/Linux-aarch64/JSON.xcframework.zip"
+        "https://get.rarestype.com/swift-json/3.5.2/Linux-aarch64/JSON.xcframework.zip"
         #endif
     }
     var checksum: String {
         #if os(macOS)
-        "4ab3a1e70d4650eeef9bdfb2e73e97a88e300b969e456f6fbcb02bcf456542a8"
+        "ebf2ef2abe846a92d2525209fbce63eef8dbad2f2bf88a79507f73ea039df9ea"
         #elseif arch(x86_64)
-        "0c5592f9ce27058585024f6279d10fca96d0dab70c2dea179121e033458eb1ad"
+        "25e1e8df454c0eb0bceb7f14860b0407f5f862da289ca46a377bb33f2cca4988"
         #else
-        "cb39e62ba348b9452f8d9ff353001f2b03ff2709b4dac4c90dd029c02e262a38"
+        "2f49018e46a240645f2ce6523807abca837d524ba7cc473dace67c4a6aecfbaa"
         #endif
     }
 
